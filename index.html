@@ -2,39 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Profile card component</title>
 
-  
 </head>
 <body>
-<img class="img1" src="./images/bg-pattern-bottom.svg">
-<!-- <img class="img2" src="./images/bg-pattern-bottom.svg"> -->
-  
+  <img class="top-background" src="./images/bg-pattern-top.svg" alt="no pic">
+  <img class="bottom-background" src="./images/bg-pattern-bottom.svg" alt="no pic">
   <main>
-    <div class="image-viktor"></div>
-    <div class="div1"></div>
-    <div class="div2">
-      <p class="viktor-crest">Victor Crest </p> 
-        <p class="number26">26 </p> <br>
-          <P class="london">London</P> </div>
-    <div class="div3">
-      <div class="divfooter1">
-        <p class="follower-count">80K</p> <br> 
-          <span>Followers</span></div>
-
-      <div class="divfooter2">
-        <p class="likes">803K</p> <br>
-           <span>Likes</span></div>
-      <div class="divfooter3">
-        <p class="photos">1.4K</p> <br>
-           <span> Photos</span></div>
-    </div>
-    
-    
+    <header></header>
+    <section>
+      <img class="viktor-picture" src="./images/image-victor.jpg" alt="no pic">
+      <div class="section-cont">
+          <h1>Victor Crest</h1>
+          <h2>26</h2>
+          <p>London</p>
+          <hr>
+          <footer class="cont-info">
+              <div class="followers">
+                  <h3>80K</h3>
+                  <h4>Followers</h4>
+              </div>
+              <div class="likes">
+                  <h3>803K</h3>
+                  <h4>Likes</h4>
+              </div>
+              <div class="photos">
+                  <h3>1.4K</h3>
+                  <h4>Photos</h4>
+              </div>
+          </footer>          
+      </div>
+    </section>
   </main>
 </body>
 </html>
