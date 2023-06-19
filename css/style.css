@@ -13,14 +13,14 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Kumbh Sans' sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     color: hsl(227, 10%, 46%);
 }
 
 main{
-    width: 350px;
-    height: 370px;
+    width: 400px;
+    height: 450px;
     background: white;
     border-radius: 20px;
     overflow: hidden;
@@ -67,7 +67,8 @@ section{
 .section-cont{
     text-align: center;
     position: relative;
-    top:-10px;
+    top:-30px;
+    font-size: 15px;
 }
 
 
@@ -76,9 +77,22 @@ h1, h3{
     font-weight: bold;
 }
 
+hr{
+    position: relative;
+    top:40px;
+    opacity: 0.5;
+}
+
 h1,h2{
     display: inline-block;
     margin-bottom: 10px;
+}
+
+h4{
+    opacity: 0.5;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 h2{
@@ -91,7 +105,9 @@ h2{
 .cont-info{
     width: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    position: relative;
+    top:80px
 }
 
 

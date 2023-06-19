@@ -1,0 +1,35 @@
+body{
+    background: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+.test::before{
+
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    content: "";
+    display: block;
+
+}
+
+.test::after{
+
+    width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    content: "";
+    display: block;
+
+}
